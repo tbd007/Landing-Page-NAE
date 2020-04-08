@@ -1,0 +1,401 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body{
+    padding:0px;
+    width:98vw;
+    margin:0 auto;
+}
+
+#container{
+    width:100%;
+    height:auto;
+}
+
+header {
+    height:100vh;
+    max-width:100%;
+    background:url("/Landing-Page-NAE/assets/photo-lavender-flower-field-under-pink-sky-1166209.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;   
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center; 
+    position:relative;
+}
+
+#nav{
+    justify-self: flex-end;
+    position:absolute;
+    bottom:0%;
+    left:0;
+    background:white;
+    width:100%;
+    position:fixed;
+    z-index:2;
+}
+
+nav > ul {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    list-style-type: none;
+}
+
+nav > ul > li > a {
+    font-family:'Roboto Condensed';
+    font-size: 1.1em;
+    letter-spacing:0.1em;
+    text-decoration:none;
+    color:black;
+}
+
+nav > ul > li > a:hover {
+    color:darkolivegreen;
+    cursor:pointer;
+}
+
+.activeLink {
+    color: darkolivegreen;
+    border-radius:5px;
+    padding:5px;
+    background-color:rgb(85, 107, 47);
+    color:white;
+}
+
+p{
+    font-family:'Roboto Condensed';
+    letter-spacing:0.1em;
+}
+
+
+h1{
+    font-family: 'Cormorant Garamond', cursive;
+    font-size:3em;
+    margin-bottom:0px;
+    text-align:center;
+    
+}
+
+#mehr{
+    font-family:'Open Sans';
+    background-color:palevioletred;
+    border:none;
+    box-shadow: inset 3px 3px 15px rgba(200, 241, 207, 0.699), 3px -3px 10px rgba(0, 0, 0, 0.452);
+    padding:10px 10px;
+    color:white;
+}
+
+.intro, p {
+    font-family:'Lato';
+    font-size:1em;
+    font-weight:500;
+    text-align:justify;
+    margin-top:35px;
+    max-width:100%;
+}
+
+#new:hover{
+    border:2px solid white;
+    cursor:pointer;
+}
+
+#new{
+    border:1px double white; 
+    
+}
+
+
+
+.fade-in {
+    animation: fadeIn ease 4s;
+    }
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+
+#badge{
+    position:absolute;
+    top:4%;
+    left:2%;
+    font-size:1.3em;
+    background:darkolivegreen;
+    border:none;
+    box-shadow:inset 2px -2px 5px rgba(152, 251, 152, 0.37),inset -2px 2px 5px rgba(152, 251, 152, 0.534);
+    border-radius:15px;
+    padding:10px 15px;
+    color:white;
+}
+
+#Discover{
+    display:grid;
+    grid-template-rows:100vh;
+    grid-template-columns:60% 40%;
+    grid-template-areas:"it pic";
+    max-width:100%;
+}
+
+#introtext{
+    margin-top:60px;
+    margin-left:50px;
+    grid-area:it;
+}
+
+#pic{
+    grid-area:pic;
+    background-image:url("/Landing-Page-NAE/assets/woman.jpeg");
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+
+.overview {
+    height:auto;
+    display:grid;
+    grid-template-rows:200px 200px;
+    grid-template-columns:240px 240px;  
+    grid-template-areas: "ol fg"
+                         "lv rs";
+    max-width:40%;
+    margin:20px 20px 20px 40px;
+    grid-gap:20px;
+}
+
+#olive{
+    grid-area:ol;
+}
+
+#fig{
+    grid-area:fg;
+}
+
+#lavender{
+    grid-area:lv;
+}
+
+#rosemary{
+    grid-area:rs;
+}
+
+.overview2{
+    display:flex;
+    flex-direction: row; 
+    justify-content:space-evenly;  
+    max-width:60%;
+    margin:20px auto;
+}
+
+.srcitem{
+    height:180px;
+    width:220px;
+    object-fit:fill;
+    margin:0;
+    border-radius:15px;
+    border:2px solid darkolivegreen;
+    box-shadow:inset -2px 6px 10px rgba(113, 194, 137, 0.637), 2px -6px 10px rgba(44, 80, 50, 0.541);
+}
+
+.srcitem2{
+    height:60px;
+    width:75px;
+    object-fit:fill;
+    margin:10px;
+    border-radius:24px;
+    border:10px solid white;
+    background: linear-gradient(145deg, #ffffff, #e4e6e4);
+    box-shadow:  5px 5px 10px #cfd0d1, 
+             -5px -5px 10px #ffffff;
+}
+
+.srcitem:hover {
+    transform: scale(1.1);
+}
+
+.items {
+    max-width:100%;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    padding:30px;
+}
+
+#Products{
+    height:100vh;
+    padding:20px;
+    max-width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    position:relative;
+}
+
+.oliveTxt{
+    color:darkolivegreen;
+}
+
+.product {
+    max-height:200px;
+    max-width:220px;
+    object-fit:fill;
+    margin:5px; 
+}
+
+h2 {
+    font-family:'Cormorant Garamond';
+    font-size:2em;
+    color:white;
+    text-align:center;
+    letter-spacing:0.1em;
+    margin:0px;
+}
+
+h3{
+    font-family:'Cormorant Garamond';
+    font-size:1.7em;
+    color:darkolivegreen;
+    text-align:center;
+    letter-spacing:0.1em;
+    margin-bottom:-5px;  
+}
+
+.subtext{
+    color:#c9be91;
+}
+
+.whitetxt{
+    color:rgba(255, 255, 255, 0.884);
+}
+
+.centeredText{
+    text-align:center;
+}
+
+#Ingredients {
+    background-color:darkolivegreen;
+    padding:20px;
+    max-height:100vh;
+    display:flex;
+    flex-direction:row;
+    max-width:100%;
+}
+
+.ingText {
+    width:50%;
+    margin:0px auto;
+    padding:20px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+#abouttext{
+    height:90%;
+    background:rgb(85, 107, 47);
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;;
+    padding:30px;
+    margin-right:10px;
+    font-size:0.9em;
+    
+}
+
+
+
+#About{
+    background:linear-gradient(to right,rgba(114, 141, 73, 0.264),rgba(85, 107, 47, 0.082)),url("/Landing-Page-NAE/assets/13342.jpg");
+    background-color:darkolivegreen;
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:left;
+    height:100vh;
+    color:white;
+    letter-spacing: 0.1em;
+    max-width:100%;
+    display:grid;
+    grid-template-rows:100%;
+    grid-template-columns:65% 35%;
+    
+}
+
+footer{
+    height:390px;
+    background:url("/Landing-Page-NAE/assets/bottompic.jpeg");
+    background-size:cover;  
+    max-width:100%;  
+}
+
+#footer{
+    display:flex;
+    justify-content:space-around;
+    background-color:darkolivegreen;
+    padding:20px;
+    height:60px;
+    margin-top:-5px;
+    max-width:100%;
+    font-family:'Roboto Condensed';
+}
+
+#footer > li {
+    list-style-type: none;
+    color:white;
+    font-size:0.9em;
+    cursor:pointer;
+}
+
+#cc{
+    text-align:center; 
+    height:25px; 
+    font-size:0.7em; 
+    padding-top:10px;
+    color:rgb(203, 240, 203);
+    background-color:rgb(39, 38, 38);
+    font-family:'Roboto Condensed';
+}
+
+#cert {
+    display:flex;
+    justify-content:space-around;
+    background-color:darkolivegreen;
+    padding-bottom:20px;
+    height:70px; 
+}
+
+#cert > img {
+    width:auto;
+    height:40px;
+}
+
+#appendedText{
+    margin-top:25px;
+    height:auto;
+    border-radius:5px;
+    padding:20px;
+    font-family:'Open Sans Condensed';
+}
+
+#appendedInfo{
+    padding:30px;
+    width:60%;
+    margin:0 auto;
+}
+
+.info{
+    height:800px;
+    padding:50px auto;
+}
+
+.dnone{
+    display:none;
+}
+
