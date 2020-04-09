@@ -155,6 +155,23 @@ $(function(){
 
 
 
+window.onscroll = function() {scrollUp()};
+function scrollUp() {
+    let y = window.scrollY;
+    let x = screen.height;
+   if ( y > x ) {
+      document.getElementById("topBtn").style.display = "block";
+   } else {
+      document.getElementById("topBtn").style.display = "none";
+   }
+}
+
+function topFunction() {
+   $('html,body').animate({ scrollTop: 0 }, 1200);
+}
+
+
+
 
 
 

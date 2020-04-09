@@ -117,3 +117,24 @@ span {
 .violet{
     color:#e4cfff;
 }
+
+#topBtn {
+    width: 30px;
+    height: 30px;
+    display: none;
+    position: fixed;
+    bottom: 60px;
+    right: 10px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    font-size: 15px !important;
+    color: white;
+    cursor: pointer;
+    padding: 5px 5px 5px 5px;
+    border-radius: 10%;
+    box-shadow: 1px 1px 5px rgb(83, 83, 83);
+    background-color: #7dc24baf ;
+ }
+ 
+ 
