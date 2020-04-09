@@ -9,6 +9,100 @@ for(let i=0; i< sections.length; i++) {
     menu.appendChild(li);
 }
 
+
+const item1 = document.getElementById('item1');
+const item2 = document.getElementById('item2');
+const item3 = document.getElementById('item3');
+
+const fig = document.getElementById('fig');
+const lavender = document.getElementById('lavender');
+const rosemary = document.getElementById('rosemary');
+const olive = document.getElementById('olive');
+
+const appendTxt = document.getElementById('appendedText');
+
+
+fig.addEventListener('mouseover', function(){
+    item1.src = "assets/images (11).jpg"
+    item2.src = "assets/images (6).jpg"
+    item3.src = "assets/Download (2).jpg"
+    appendTxt.innerHTML = `<h2>Bio-Feige</h2><p class="whitetxt">
+    Die Feige, die als älteste Frucht gilt, wurde traditionell wegen ihrer entzündungshemmenden und ihrer beruhigenden Wirkung verwendet.
+    In der Kosmetik ist die Feige bekannt für ihre feuchtigkeitsspendenden Eigenschaften und die Schutzwirkung gegen freie Radikale.</p>`
+});
+
+olive.addEventListener('mouseover', function(){
+    item1.src = "assets/Download (5).jpg"
+    item2.src = "assets/Download (4).jpg"
+    item3.src = "assets/Download (6).jpg"
+    appendTxt.innerHTML = `<h2>Bio-Olivenöl</h2><p class="whitetxt">
+    Olivenöl wird seit jeher zur Vorbeugung oder Heilung bestimmter Krankheiten eingesetzt. 
+    Im antiken Griechenland wurden mit Präparaten aus Olivenöl alle Arten von Entzündungen behandelt. 
+    Reich an Vitaminen, Mineralien und Fettsäuren, ist Olivenöl das älteste italienische Schönheitsgeheimnis. 
+    </p>`
+});
+
+lavender.addEventListener('mouseover', function(){
+    item1.src = "assets/Download (8).jpg"
+    item2.src = "assets/Download (9).jpg"
+    item3.src = "assets/Download (7).jpg"
+    appendTxt.innerHTML = `<h2>Meeres-Lavendel</h2><p class="whitetxt">
+    Meereslavendel wird in der medizinischen Behandlung wegen seiner abschwellenden und entschlackenden Eigenschaften verwendet.
+    Er wird wegen seiner tiefen feuchtigkeitsspendenden Eigenschaften und seiner hautverjüngenden Wirkung häufig in Nachtcremes integriert. </p>`
+});
+
+rosemary.addEventListener('mouseover', function(){
+    item1.src = "assets/Download (12).jpg"
+    item2.src = "assets/Download.jpg"
+    item3.src = "assets/Download (1).jpg"
+    appendTxt.innerHTML = `<h2>Rosmarin</h2><p class="whitetxt">
+    Rosmarin war schon in der römischen Zeit bekannt dafür, die Verdauungsfunktionen zu stimulieren. Er wurde auch als allgemeines Tonikum eingesetzt.
+    Rosmarin wird für Haut und Haare verwendet, wirkt reinigend und klärend. Bei Hautpflegeprodukten wirkt Rosmarin zudem erfrischend. </p>`
+});
+
+
+const fig2 = document.getElementById('fig2');
+const lavender2 = document.getElementById('lavender2');
+const rosemary2 = document.getElementById('rosemary2');
+const olive2 = document.getElementById('olive2');
+
+const appendTxt2 = document.getElementById('appendInfoTxt');
+
+fig2.addEventListener('mouseover', function(){
+    item1.src = "assets/images (11).jpg"
+    item2.src = "assets/images (6).jpg"
+    item3.src = "assets/Download (2).jpg"
+    appendTxt2.innerHTML = `<h3 class="oliveTxt">Bio-Feige-Collection</h3><p>
+    In der Kosmetik ist die Feige bekannt für ihre feuchtigkeitsspendenden Eigenschaften und die Schutzwirkung gegen freie Radikale.</p>`
+});
+
+olive2.addEventListener('mouseover', function(){
+    item1.src = "assets/Download (5).jpg"
+    item2.src = "assets/Download (4).jpg"
+    item3.src = "assets/Download (6).jpg"
+    appendTxt2.innerHTML = `<h3 class="oliveTxt">Bio-Olivenöl-Collection</h3><p>
+    Ein wahrer Schatz für die Haut, nährt sie, macht sie weich, tonisiert und revitalisiert. 
+    Olivenöl ist auch perfekt, um das Haar zu stärken und ihm wieder Glanz zu verleihen. 
+    </p>`
+});
+
+lavender2.addEventListener('mouseover', function(){
+    item1.src = "assets/Download (8).jpg"
+    item2.src = "assets/Download (9).jpg"
+    item3.src = "assets/Download (7).jpg"
+    appendTxt2.innerHTML = `<h3 class="oliveTxt">Meeres-Lavendel-Collection</h3><p>
+    Meereslavendel wird wegen seiner tiefen feuchtigkeitsspendenden Eigenschaften und seiner hautverjüngenden Wirkung häufig in Nachtcremes integriert. </p>`
+});
+
+rosemary2.addEventListener('mouseover', function(){
+    item1.src = "assets/Download (12).jpg"
+    item2.src = "assets/Download.jpg"
+    item3.src = "assets/Download (1).jpg"
+    appendTxt2.innerHTML = `<h3 class="oliveTxt">Rosmarin-Collection</h3><p>
+    Rosmarin wird für Haut und Haare verwendet, wirkt reinigend und klärend. Bei Hautpflegeprodukten wirkt Rosmarin zudem erfrischend. </p>`
+});
+
+
 //Active Link Class added when Section is in view
     $(window).scroll(function() { 
         var Scroll = $(window).scrollTop() + 1, // Distance from Top
@@ -55,7 +149,7 @@ $(function(){
     function checkScroll(){
         t = setTimeout(function(){
            $("#nav").fadeOut(800);
-        },2000); 
+        },1500); 
     }
 });
 

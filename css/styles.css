@@ -70,6 +70,7 @@ nav > ul > li > a:hover {
 p{
     font-family:'Roboto Condensed';
     letter-spacing:0.1em;
+    font-size:1em;
 }
 
 
@@ -79,6 +80,10 @@ h1{
     margin-bottom:0px;
     text-align:center;
     
+}
+
+.logo{
+    opacity:0.6;width:100%;height:389px;height:100%;
 }
 
 #mehr{
@@ -127,9 +132,9 @@ h1{
     font-size:1.3em;
     background:darkolivegreen;
     border:none;
-    box-shadow:inset 2px -2px 5px rgba(152, 251, 152, 0.37),inset -2px 2px 5px rgba(152, 251, 152, 0.534);
-    border-radius:15px;
-    padding:10px 15px;
+    box-shadow:inset 2px -2px 5px rgba(152, 251, 152, 0.37),inset -2px 2px 5px rgba(213, 245, 213, 0.657);
+    border-radius:25px;
+    padding:10px 25px;
     color:white;
 }
 
@@ -207,9 +212,9 @@ h1{
     object-fit:fill;
     margin:10px;
     border-radius:24px;
-    border:10px solid white;
+    border:5px solid white;
     background: linear-gradient(145deg, #ffffff, #e4e6e4);
-    box-shadow:  5px 5px 10px #cfd0d1, 
+    box-shadow:  5px 5px 10px #293a2f67, 
              -5px -5px 10px #ffffff;
 }
 
@@ -267,7 +272,7 @@ h3{
 }
 
 .subtext{
-    color:#c9be91;
+    color:white;
 }
 
 .whitetxt{
@@ -310,10 +315,13 @@ h3{
     
 }
 
-
+span {
+    font-size:0.8em;
+    color:sandybrown;
+}
 
 #About{
-    background:linear-gradient(to right,rgba(114, 141, 73, 0.264),rgba(85, 107, 47, 0.082)),url("/Landing-Page-NAE/assets/13342.jpg");
+    background:linear-gradient(to right,rgba(114, 141, 73, 0.264),rgba(85, 107, 47, 0.082)),url("/Landing-Page-NAE/assets/woman2.jpeg");
     background-color:darkolivegreen;
     background-size:contain;
     background-repeat:no-repeat;
@@ -399,3 +407,112 @@ footer{
     display:none;
 }
 
+@media only screen and (max-width:768px){
+    #Discover{
+        display:grid;
+        grid-template-rows:100vh;
+        grid-template-columns:100%;
+        grid-template-areas:"it";
+        overflow:hidden;
+        padding:25px;
+        max-width:100%;
+        height:100vh;
+    }
+    
+    #introtext{
+        margin:20px auto;
+        grid-area:it;
+        width:100%;
+    }
+
+    #new{
+        width:80%;
+        margin:0 auto;
+    }
+
+    h1{
+        font-size:2.5em;
+    }
+
+    h2{
+        font-size:1.3em;
+        text-shadow:2px 2px 2px rgba(31, 30, 30, 0.658);
+    }
+
+    .intro{
+        font-size:0.8em;
+    }
+
+    #pic {
+        display:none;
+    }
+
+    #Ingredients {
+        display:none;
+    }
+
+    
+    #Products{
+        height:auto;
+        padding:20px;
+        max-width:100%;
+        display:flex;
+        flex-direction:column;
+        }
+
+    #About{
+    background-position:center;
+    height:100vh;
+    color:white;
+    letter-spacing: 0.1em;
+    max-width:100%;
+    display:grid;
+    grid-template-rows:100vh;
+    grid-template-columns:100%;  
+    grid-template-areas:  "abt";
+    padding:0px auto;
+    }
+    
+    #abouttext{
+    grid-area:abt;
+    height:80%;
+    max-width:100%;
+    margin:35px auto;
+    background:rgba(85, 107, 47, 0.747);
+    padding:30px;
+    margin-right:0px;
+    font-size:0.8em;
+    }
+
+    .logo{
+        opacity:0.8;width:100%;height:auto;
+    }
+
+    #container, header, body {
+        max-width:100%;
+    }
+
+    footer{
+        background:url("/Landing-Page-NAE/assets/13342.jpg");
+        background-size:cover;
+        background-position:top;
+        height:auto;
+        margin-top:0px;
+    }
+
+    #footer{
+        height:60px;
+    }
+
+    #cert{
+        padding:0px 10px;
+    }
+
+    #appendInfoTxt > p {
+        font-size:0.9em;
+    }
+
+    .whoweare{
+        font-size:1.7em;
+    }
+}
