@@ -16,7 +16,7 @@ body{
 header {
     height:100vh;
     max-width:100%;
-    background:url("/Landing-Page-NAE/assets/photo-lavender-flower-field-under-pink-sky-1166209.jpg");
+    background:url("/assets/photo-lavender-flower-field-under-pink-sky-1166209.jpg");
     background-size:cover;
     background-repeat:no-repeat;
     background-position:center;   
@@ -154,7 +154,7 @@ h1{
 
 #pic{
     grid-area:pic;
-    background-image:url("assets/woman.jpeg");
+    background-image:url("/assets/woman.jpeg");
     background-size:cover;
     background-repeat:no-repeat;
 }
@@ -321,7 +321,7 @@ span {
 }
 
 #About{
-    background:linear-gradient(to right,rgba(114, 141, 73, 0.264),rgba(85, 107, 47, 0.082)),url("assets/woman2.jpeg");
+    background:linear-gradient(to right,rgba(114, 141, 73, 0.264),rgba(85, 107, 47, 0.082)),url("/assets/woman2.jpeg");
     background-color:darkolivegreen;
     background-size:contain;
     background-repeat:no-repeat;
@@ -506,7 +506,7 @@ footer{
     }
 
     footer{
-        background:url("assets/13342.jpg");
+        background:url("/assets/13342.jpg");
         background-size:cover;
         background-position:top;
         height:auto;
@@ -614,7 +614,7 @@ footer{
 
     footer{
         height:190px;
-        background:url("assets/bottompic.jpeg");
+        background:url(/"assets/bottompic.jpeg");
         background-size:cover;  
         max-width:100%;  
     }
@@ -665,8 +665,8 @@ footer{
     }
 
     .srcitem{
-        height:100px;
-        width:100px;
+        height:60px;
+        width:70px;
         object-fit:fill;
         margin:0;
         border-radius:15px;
@@ -677,7 +677,7 @@ footer{
     .overview {
         height:auto;
         display:grid;
-        grid-template-rows:120px;
+        grid-template-rows:100px;
         grid-template-columns:1fr 1fr 1fr 1fr;  
         grid-template-areas: "ol fg lv rs"
                              ;
