@@ -16,7 +16,7 @@ body{
 header {
     height:100vh;
     max-width:100%;
-    background:url("/assets/photo-lavender-flower-field-under-pink-sky-1166209.jpg");
+    background-image:url("/assets/photo-lavender-flower-field-under-pink-sky-1166209.jpg");
     background-size:cover;
     background-repeat:no-repeat;
     background-position:center;   
@@ -338,7 +338,7 @@ span {
 
 footer{
     height:390px;
-    background:url("assets/bottompic.jpeg");
+    background-image:url("/assets/bottompic.jpeg");
     background-size:cover;  
     max-width:100%;  
 }
@@ -614,7 +614,7 @@ footer{
 
     footer{
         height:190px;
-        background:url(/"assets/bottompic.jpeg");
+        background:url("/assets/bottompic.jpeg");
         background-size:cover;  
         max-width:100%;  
     }
