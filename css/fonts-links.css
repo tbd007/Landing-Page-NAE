@@ -4,7 +4,7 @@ nav > ul > li > a {
     letter-spacing:0.1em;
     text-decoration:none;
     color:black;
-    margin-right:10px;
+    margin:100px;
 }
 
 nav > ul > li > a:hover {
@@ -107,5 +107,13 @@ span {
 }
 
 .ingText > h2 {
-    color:rgba(255, 154, 143, 0.863);
+    color:#e4cfff;
+}
+
+.green {
+    color:#7dc24b;
+}
+
+.violet{
+    color:#e4cfff;
 }
