@@ -580,5 +580,35 @@ footer{
         width:80%;
         margin:0 auto;
     }
+    
+    #footer > li {
+        list-style-type: none;
+        color:white;
+        font-size:0.5em;
+        cursor:pointer;
+    }
+    
+    #cc{
+        text-align:center; 
+        height:25px; 
+        font-size:0.7em; 
+        padding-top:10px;
+        color:rgb(211, 214, 211);
+        background-color:rgb(39, 38, 38);
+        font-family:'Roboto Condensed';
+    }
+    
+    #cert {
+        display:flex;
+        justify-content:space-around;
+        background-color:darkolivegreen;
+        padding-bottom:20px;
+        height:70px; 
+    }
+    
+    #cert > img {
+        width:auto;
+        height:20px;
+    }
 
 }
