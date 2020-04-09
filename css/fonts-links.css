@@ -80,7 +80,9 @@ h3{
 
 span {
     font-size:0.8em;
-    color:sandybrown;
+    color:white;
+    font-family: 'Open Sans Condensed';
+    margin-top:5px;
 }
 
 #footer > li {
