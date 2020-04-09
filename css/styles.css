@@ -489,7 +489,8 @@ footer{
     }
 
     #container, header, body {
-        max-width:100%;
+        width:100vh;
+        
     }
 
     footer{
