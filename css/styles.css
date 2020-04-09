@@ -618,3 +618,24 @@ footer{
         background-size:cover;  
         max-width:100%;  
     }
+    
+     nav > ul {
+        display:flex;
+        flex-direction:row;
+        justify-content:space-around;
+        list-style-type: none;
+    }
+    
+    nav > ul > li > a {
+        font-family:'Roboto Condensed';
+        font-size: 0.9em;
+        letter-spacing:0em;
+        text-decoration:none;
+        color:black;
+    }
+    
+    nav > ul > li > a:hover {
+        color:darkolivegreen;
+        cursor:pointer;
+    }
+}
