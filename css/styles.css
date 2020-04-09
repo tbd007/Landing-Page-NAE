@@ -407,7 +407,7 @@ footer{
     display:none;
 }
 
-@media only screen and (max-width:768px){
+@media only screen and (max-width:999px){
     #Discover{
         display:grid;
         grid-template-rows:100vh;
@@ -489,9 +489,8 @@ footer{
     }
 
     #container, header, body {
-        width:100%;
-        margin:0 auto;
-        
+        max-width:100%;
+          
     }
 
     footer{
