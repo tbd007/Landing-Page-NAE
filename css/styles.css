@@ -569,8 +569,8 @@ footer{
     }
 
     .srcitem{
-        height:60px;
-        width:70px;
+        height:77px;
+        width:90px;
         object-fit:fill;
         margin:0;
         border-radius:5px;
@@ -581,9 +581,9 @@ footer{
     .overview {
         height:auto;
         display:grid;
-        grid-template-rows:70px;
-        grid-template-columns:1fr 1fr 1fr 1fr;  
-        grid-template-areas: "ol fg lv rs"
+        grid-template-rows:80px 80px;
+        grid-template-columns:1fr 1fr ;  
+        grid-template-areas: "ol fg" "lv rs"
                              ;
         max-width:100%;
         margin:20px auto;
