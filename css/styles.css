@@ -154,7 +154,7 @@ h1{
 
 #pic{
     grid-area:pic;
-    background-image:url("/Landing-Page-NAE/assets/woman.jpeg");
+    background-image:url("/assets/woman.jpeg");
     background-size:cover;
     background-repeat:no-repeat;
 }
@@ -321,7 +321,7 @@ span {
 }
 
 #About{
-    background:linear-gradient(to right,rgba(114, 141, 73, 0.264),rgba(85, 107, 47, 0.082)),url("/Landing-Page-NAE/assets/woman2.jpeg");
+    background:linear-gradient(to right,rgba(114, 141, 73, 0.264),rgba(85, 107, 47, 0.082)),url("/assets/woman2.jpeg");
     background-color:darkolivegreen;
     background-size:contain;
     background-repeat:no-repeat;
@@ -338,7 +338,7 @@ span {
 
 footer{
     height:390px;
-    background:url("/Landing-Page-NAE/assets/bottompic.jpeg");
+    background:url("/assets/bottompic.jpeg");
     background-size:cover;  
     max-width:100%;  
 }
@@ -525,4 +525,19 @@ footer{
     .whoweare{
         font-size:1.7em;
     }
+        
+    .product {
+    max-height:60px;
+    max-width:60px;
+    object-fit:fill;
+    margin:5px; 
+}  
+   .items {
+    max-width:100%;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    padding:10px;
+}     
 }
