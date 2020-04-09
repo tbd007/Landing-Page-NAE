@@ -1,3 +1,5 @@
+@import "fonts-links.css";
+
 html {
     scroll-behavior: smooth;
   }
@@ -48,63 +50,8 @@ nav > ul {
     list-style-type: none;
 }
 
-nav > ul > li > a {
-    font-family:'Roboto Condensed';
-    font-size: 1.1em;
-    letter-spacing:0.1em;
-    text-decoration:none;
-    color:black;
-    margin-right:10px;
-}
-
-nav > ul > li > a:hover {
-    color:darkolivegreen;
-    cursor:pointer;
-}
-
-.activeLink {
-    color: darkolivegreen;
-    border-radius:5px;
-    padding:5px;
-    background-color:rgb(85, 107, 47);
-    color:white;
-}
-
-p{
-    font-family:'Roboto Condensed';
-    letter-spacing:0.1em;
-    font-size:1em;
-}
-
-
-h1{
-    font-family: 'Cormorant Garamond', cursive;
-    font-size:3em;
-    margin-bottom:0px;
-    text-align:center;
-    
-}
-
 .logo{
     opacity:0.6;width:100%;height:389px;height:100%;
-}
-
-#mehr{
-    font-family:'Open Sans';
-    background-color:palevioletred;
-    border:none;
-    box-shadow: inset 3px 3px 15px rgba(200, 241, 207, 0.699), 3px -3px 10px rgba(0, 0, 0, 0.452);
-    padding:10px 10px;
-    color:white;
-}
-
-.intro, p {
-    font-family:'Lato';
-    font-size:1em;
-    font-weight:500;
-    text-align:justify;
-    margin-top:35px;
-    max-width:100%;
 }
 
 #new:hover{
@@ -116,8 +63,6 @@ h1{
     border:1px double white; 
     
 }
-
-
 
 .fade-in {
     animation: fadeIn ease 4s;
@@ -243,45 +188,11 @@ h1{
     position:relative;
 }
 
-.oliveTxt{
-    color:darkolivegreen;
-}
-
 .product {
     max-height:200px;
     max-width:220px;
     object-fit:fill;
     margin:5px; 
-}
-
-h2 {
-    font-family:'Cormorant Garamond';
-    font-size:1.9em;
-    color:white;
-    text-align:center;
-    letter-spacing:0.1em;
-    margin:0px;
-}
-
-h3{
-    font-family:'Cormorant Garamond';
-    font-size:1.7em;
-    color:darkolivegreen;
-    text-align:center;
-    letter-spacing:0.1em;
-    margin-bottom:-5px;  
-}
-
-.subtext{
-    color:white;
-}
-
-.whitetxt{
-    color:rgba(255, 255, 255, 0.884);
-}
-
-.centeredText{
-    text-align:center;
 }
 
 #Ingredients {
@@ -316,11 +227,6 @@ h3{
     
 }
 
-span {
-    font-size:0.8em;
-    color:sandybrown;
-}
-
 #About{
     background:linear-gradient(to right,rgba(114, 141, 73, 0.264),rgba(85, 107, 47, 0.082)),url("/assets/woman2.jpeg");
     background-color:darkolivegreen;
@@ -352,23 +258,6 @@ footer{
     height:60px;
     margin-top:-5px;
     max-width:100%;
-    font-family:'Roboto Condensed';
-}
-
-#footer > li {
-    list-style-type: none;
-    color:white;
-    font-size:0.9em;
-    cursor:pointer;
-}
-
-#cc{
-    text-align:center; 
-    height:25px; 
-    font-size:0.7em; 
-    padding-top:10px;
-    color:rgb(203, 240, 203);
-    background-color:rgb(39, 38, 38);
     font-family:'Roboto Condensed';
 }
 
@@ -650,6 +539,10 @@ footer{
         cursor:pointer;
     }
 
+    #navlist {
+        padding-right:25px;
+    }
+
     .whoweare{
         font-size:2em;
         text-shadow:none;
@@ -721,10 +614,6 @@ footer{
     #appendedText > h2{
         margin-top:10px;
         margin-bottom:-5px;
-    }
-
-    .ingText > h2 {
-        color:palevioletred;
     }
 
 }

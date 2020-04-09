@@ -1,0 +1,105 @@
+nav > ul > li > a {
+    font-family:'Roboto Condensed';
+    font-size: 1.1em;
+    letter-spacing:0.1em;
+    text-decoration:none;
+    color:black;
+    margin-right:10px;
+}
+
+nav > ul > li > a:hover {
+    color:darkolivegreen;
+    cursor:pointer;
+}
+
+.activeLink {
+    color: darkolivegreen;
+    border-radius:5px;
+    padding:5px;
+    background-color:rgb(85, 107, 47);
+    color:white;
+}
+
+p{
+    font-family:'Roboto Condensed';
+    letter-spacing:0.1em;
+    font-size:1em;
+}
+
+
+h1{
+    font-family: 'Cormorant Garamond', cursive;
+    font-size:3em;
+    margin-bottom:0px;
+    text-align:center;
+    
+}
+
+.intro, p {
+    font-family:'Lato';
+    font-size:1em;
+    font-weight:500;
+    text-align:justify;
+    margin-top:35px;
+    max-width:100%;
+}
+
+.oliveTxt{
+    color:darkolivegreen;
+}
+
+h2 {
+    font-family:'Cormorant Garamond';
+    font-size:1.9em;
+    color:white;
+    text-align:center;
+    letter-spacing:0.1em;
+    margin:0px;
+}
+
+h3{
+    font-family:'Cormorant Garamond';
+    font-size:1.7em;
+    color:darkolivegreen;
+    text-align:center;
+    letter-spacing:0.1em;
+    margin-bottom:-5px;  
+}
+
+.subtext{
+    color:white;
+}
+
+.whitetxt{
+    color:rgba(255, 255, 255, 0.884);
+}
+
+.centeredText{
+    text-align:center;
+}
+
+span {
+    font-size:0.8em;
+    color:sandybrown;
+}
+
+#footer > li {
+    list-style-type: none;
+    color:white;
+    font-size:0.9em;
+    cursor:pointer;
+}
+
+#cc{
+    text-align:center; 
+    height:25px; 
+    font-size:0.7em; 
+    padding-top:10px;
+    color:rgb(203, 240, 203);
+    background-color:rgb(39, 38, 38);
+    font-family:'Roboto Condensed';
+}
+
+.ingText > h2 {
+    color:salmon;
+}
