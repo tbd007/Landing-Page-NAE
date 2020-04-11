@@ -155,5 +155,5 @@ function scrollUp() {
 }
 
 function topFunction() {
-   $('html,body').animate({ scrollTop: 0 }, 600);
+   $('html,body').animate({ scrollTop: 0 }, 500);
 }
