@@ -97,6 +97,10 @@ nav > ul {
     object-fit:fill;
 }
 
+#wpic{
+    margin-top:125px;
+}
+
 /*Products Section*/
 
 #Products{
@@ -331,6 +335,11 @@ footer{
         margin:0 auto;
         cursor:pointer;
     }
+
+    #wpic{
+        margin-top:0px;
+    }
+    
 
     h1{
         font-size:2.5em;

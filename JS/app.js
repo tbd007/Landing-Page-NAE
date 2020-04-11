@@ -9,7 +9,7 @@ for(let i=0; i< sections.length; i++) {
     menu.appendChild(li);
 }
 
-
+//Ingredients & Products Interactive Text
 const item1 = document.getElementById('item1');
 const item2 = document.getElementById('item2');
 const item3 = document.getElementById('item3');
