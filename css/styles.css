@@ -18,7 +18,7 @@ body{
 header {
     height:100vh;
     max-width:100%;
-    background-image:url("assets/photo-lavender-flower-field-under-pink-sky-1166209.jpg");
+    background-image:url("/assets/photo-lavender-flower-field-under-pink-sky-1166209.jpg");
     background-size:cover;
     background-repeat:no-repeat;
     background-position:center;   
@@ -260,7 +260,7 @@ nav > ul {
 }
 
 #About{
-    background:linear-gradient(to right,rgba(114, 141, 73, 0.264),rgba(85, 107, 47, 0.082)),url("assets/woman2.jpeg");
+    background:linear-gradient(to right,rgba(114, 141, 73, 0.264),rgba(85, 107, 47, 0.082)),url("/assets/woman2.jpeg");
     background-color:darkolivegreen;
     background-size:contain;
     background-repeat:no-repeat;
