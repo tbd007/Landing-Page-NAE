@@ -260,7 +260,7 @@ nav > ul {
 }
 
 #About{
-    background:linear-gradient(to right,rgba(114, 141, 73, 0.264),rgba(85, 107, 47, 0.082)),url("/assets/woman2.jpg");
+    background:linear-gradient(to right,rgba(114, 141, 73, 0.264),rgba(85, 107, 47, 0.082)),url("assets/woman2.jpg");
     background-color:darkolivegreen;
     background-size:contain;
     background-repeat:no-repeat;
