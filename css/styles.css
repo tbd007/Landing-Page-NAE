@@ -15,10 +15,24 @@ body{
     height:auto;
 }
 
+#headerimage {
+    z-index:-1;
+    position:absolute;
+    top:0;
+    left:0
+    right:0;
+}
+
+#headerTxt{
+    z-index:1;
+    margin-top:-80px;
+    margin-bottom:0px;
+}
+
 header {
     height:100vh;
     max-width:100%;
-    background-image:url("/assets/photo-lavender-flower-field-under-pink-sky-1166209.jpg");
+    background-image:url("assets/lavenderfield.jpg");
     background-size:cover;
     background-repeat:no-repeat;
     background-position:center;   
@@ -54,7 +68,7 @@ nav > ul {
 }
 
 .logo{
-    opacity:0.6;width:100%;height:389px;height:100%;
+    opacity:0.9;width:100%;height:389px;height:100%;
 }
 
 #new:hover{
@@ -260,7 +274,7 @@ nav > ul {
 }
 
 #About{
-    background:linear-gradient(to right,rgba(114, 141, 73, 0.264),rgba(85, 107, 47, 0.082)),url("/assets/woman2.jpeg");
+    background:linear-gradient(to right,rgba(114, 141, 73, 0.264),rgba(85, 107, 47, 0.082));
     background-color:darkolivegreen;
     background-size:contain;
     background-repeat:no-repeat;
@@ -277,8 +291,6 @@ nav > ul {
 
 footer{
     height:390px;
-    background-image:url("/assets/bottompic.jpeg");
-    background-size:cover;  
     max-width:100%;  
 }
 
@@ -402,7 +414,7 @@ footer{
     }
 
     .logo{
-        opacity:0.8;width:100%;height:auto;
+        opacity:0.9;width:100%;height:auto;
     }
 
     #container {
@@ -421,7 +433,7 @@ footer{
     }
 
     footer{
-        background:url("/assets/13342.jpg");
+        background:url("assets/13342.jpg");
         background-size:cover;
         background-position:top;
         height:auto;
@@ -534,8 +546,6 @@ footer{
 
     footer{
         height:190px;
-        background:url("/assets/bottompic.jpeg");
-        background-size:cover;  
         max-width:100%;  
     }
 
@@ -638,4 +648,9 @@ footer{
         margin-bottom:-5px;
     }
 
+    #aboutpic {
+        display:none;
+    }
+
 }
+
