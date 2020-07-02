@@ -23,13 +23,13 @@ const appendTxt = document.getElementById('appendedText');
 
 
 fig.addEventListener('mouseover', function(){
-    appendTxt.innerHTML = `<h2 class="violet">Bio-Feige</h2><p class="whitetxt">
+    appendTxt.innerHTML = `<h2 class="violet">BIO - FEIGE</h2><p class="whitetxt">
     Die Feige, die als älteste Frucht gilt, wurde traditionell wegen ihrer entzündungshemmenden und ihrer beruhigenden Wirkung verwendet.
     In der Kosmetik ist die Feige bekannt für ihre feuchtigkeitsspendenden Eigenschaften und die Schutzwirkung gegen freie Radikale.</p>`
 });
 
 olive.addEventListener('mouseover', function(){
-    appendTxt.innerHTML = `<h2 class="green">Bio-Olivenöl</h2><p class="whitetxt">
+    appendTxt.innerHTML = `<h2 class="green">BIO - OLIVENÖL</h2><p class="whitetxt">
     Olivenöl wird seit jeher zur Vorbeugung oder Heilung bestimmter Krankheiten eingesetzt. 
     Im antiken Griechenland wurden mit Präparaten aus Olivenöl alle Arten von Entzündungen behandelt. 
     Reich an Vitaminen, Mineralien und Fettsäuren, ist Olivenöl das älteste italienische Schönheitsgeheimnis. 
@@ -37,13 +37,13 @@ olive.addEventListener('mouseover', function(){
 });
 
 lavender.addEventListener('mouseover', function(){
-    appendTxt.innerHTML = `<h2 class="violet">Meeres-Lavendel</h2><p class="whitetxt">
+    appendTxt.innerHTML = `<h2 class="violet">MEERESLAVENDEL</h2><p class="whitetxt">
     Meereslavendel wird in der medizinischen Behandlung wegen seiner abschwellenden und entschlackenden Eigenschaften verwendet.
     Er wird wegen seiner tiefen feuchtigkeitsspendenden Eigenschaften und seiner hautverjüngenden Wirkung häufig in Nachtcremes integriert. </p>`
 });
 
 rosemary.addEventListener('mouseover', function(){
-    appendTxt.innerHTML = `<h2 class="green">Rosmarin</h2><p class="whitetxt">
+    appendTxt.innerHTML = `<h2 class="green">ROSMARIN</h2><p class="whitetxt">
     Rosmarin war schon in der römischen Zeit bekannt dafür, die Verdauungsfunktionen zu stimulieren. Er wurde auch als allgemeines Tonikum eingesetzt.
     Rosmarin wird für Haut und Haare verwendet, wirkt reinigend und klärend. Bei Hautpflegeprodukten wirkt Rosmarin zudem erfrischend. </p>`
 });

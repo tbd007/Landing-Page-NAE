@@ -83,9 +83,9 @@ h3{
 
 .whitetxt{
     color:rgba(255, 255, 255, 0.884);
-    text-align:left;
+    text-align:center;
     font-size:1.1em;
-    font-family:'Roboto Condensed';
+    font-family:'Lato';
 
 }
 
@@ -150,9 +150,10 @@ span {
 
  #hand{
      font-family:'Cormorand Garamont';
-     color:#070707;
+     color:#64aa6f;
      text-transform:uppercase;
      margin:25px;
+    
  }
  
  

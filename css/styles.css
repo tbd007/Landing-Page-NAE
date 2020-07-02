@@ -198,7 +198,7 @@ nav > ul {
 /* Ingredients Section*/
 
 #Ingredients {
-    background:linear-gradient(rgba(85, 107, 47, 0.828), rgba(6, 7, 5, 0.86)), url('/assets/bottompic.jpeg');
+    background:linear-gradient(to right, rgba(55, 61, 54, 0.377), rgba(6, 7, 5, 0.9)), url('/assets/bottompic.jpeg');
     background-size:cover;
     padding:20px;
     max-height:100vh;
