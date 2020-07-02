@@ -60,7 +60,7 @@ fig2.addEventListener('mouseover', function(){
     item1.src = "assets/images (11).jpg"
     item2.src = "assets/images (6).jpg"
     item3.src = "assets/Download (2).jpg"
-    appendTxt2.innerHTML = `<h3 class="oliveTxt">Bio-Feige-Collection</h3><p>
+    appendTxt2.innerHTML = `<h3 class="oliveTxt">BIO - FEIGE</h3><p>
     In der Kosmetik ist die Feige bekannt für ihre feuchtigkeitsspendenden Eigenschaften und die Schutzwirkung gegen freie Radikale.</p>`
 });
 
@@ -68,7 +68,7 @@ olive2.addEventListener('mouseover', function(){
     item1.src = "assets/Download (5).jpg"
     item2.src = "assets/Download (4).jpg"
     item3.src = "assets/Download (6).jpg"
-    appendTxt2.innerHTML = `<h3 class="oliveTxt">Bio-Olivenöl-Collection</h3><p>
+    appendTxt2.innerHTML = `<h3 class="oliveTxt">BIO - OLIVENÖL</h3><p>
     Ein wahrer Schatz für die Haut, nährt sie, macht sie weich, tonisiert und revitalisiert. 
     Olivenöl ist auch perfekt, um das Haar zu stärken und ihm wieder Glanz zu verleihen. 
     </p>`
@@ -78,7 +78,7 @@ lavender2.addEventListener('mouseover', function(){
     item1.src = "assets/Download (8).jpg"
     item2.src = "assets/Download (9).jpg"
     item3.src = "assets/Download (7).jpg"
-    appendTxt2.innerHTML = `<h3 class="oliveTxt">Meeres-Lavendel-Collection</h3><p>
+    appendTxt2.innerHTML = `<h3 class="oliveTxt">MEERESLAVENDEL</h3><p>
     Meereslavendel wird wegen seiner tiefen feuchtigkeitsspendenden Eigenschaften und seiner hautverjüngenden Wirkung häufig in Nachtcremes integriert. </p>`
 });
 
@@ -86,7 +86,7 @@ rosemary2.addEventListener('mouseover', function(){
     item1.src = "assets/Download (12).jpg"
     item2.src = "assets/Download.jpg"
     item3.src = "assets/Download (1).jpg"
-    appendTxt2.innerHTML = `<h3 class="oliveTxt">Rosmarin-Collection</h3><p>
+    appendTxt2.innerHTML = `<h3 class="oliveTxt">ROSMARIN PUR</h3><p>
     Rosmarin wird für Haut und Haare verwendet, wirkt reinigend und klärend. Bei Hautpflegeprodukten wirkt Rosmarin zudem erfrischend. </p>`
 });
 

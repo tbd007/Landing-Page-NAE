@@ -32,7 +32,7 @@ p{
 
 
 h1{
-    font-family: 'Cormorant Garamond', cursive;
+    font-family: 'Cormorant Garamond';
     font-size:3em;
     margin-bottom:0px;
     text-align:center;
@@ -40,12 +40,13 @@ h1{
 }
 
 .intro, p {
-    font-family:'Lato';
-    font-size:1em;
+    font-family:'Roboto Condensed';
+    font-size:1.1em;
     font-weight:500;
     text-align:justify;
     margin-top:35px;
     max-width:100%;
+    line-height:1.5em;
 }
 
 .oliveTxt{
@@ -53,12 +54,17 @@ h1{
 }
 
 h2 {
-    font-family:'Cormorant Garamond';
-    font-size:1.9em;
+    font-family:'Cormorant Garramond';
+    font-size:1.7em;
     color:white;
     text-align:center;
     letter-spacing:0.1em;
     margin:0px;
+    font-weight:300;
+}
+
+#heading2 {
+    font-family:'Montserrat';
 }
 
 h3{
@@ -72,10 +78,15 @@ h3{
 
 .subtext{
     color:white;
+    
 }
 
 .whitetxt{
     color:rgba(255, 255, 255, 0.884);
+    text-align:left;
+    font-size:1.1em;
+    font-family:'Roboto Condensed';
+
 }
 
 .centeredText{
@@ -84,7 +95,7 @@ h3{
 
 span {
     font-size:0.8em;
-    color:white;
+    color:rgba(15, 240, 101, 0.884);
     font-family: 'Open Sans Condensed';
     margin-top:5px;
 }
@@ -135,6 +146,13 @@ span {
     border-radius: 10%;
     box-shadow: 1px 1px 5px rgb(83, 83, 83);
     background-color: #70b43fe8 ;
+ }
+
+ #hand{
+     font-family:'Cormorand Garamont';
+     color:black;
+     text-transform:uppercase;
+     margin:25px;
  }
  
  
