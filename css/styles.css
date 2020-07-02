@@ -643,7 +643,7 @@ footer{
         margin-bottom:-5px;
     }
 
-    #aboutpic {
+    #aboutpic, #hand {
         display:none;
     }
 
