@@ -479,12 +479,12 @@ footer{
     }
 
     .srcitem2{
-    height:45px;
-    width:50px;
+    height:50px;
+    width:55px;
     object-fit:fill;
     margin:5px;
     border-radius:185px;
-    border:2px solid rgb(255, 255, 255);
+    border:1px solid rgb(255, 255, 255);
     background: linear-gradient(145deg, #ffffff, #d6d6d6);
     box-shadow: 5px 5px 10px #d5d6d5b4, 
             -5px -5px 10px #f1f0f0;
@@ -596,10 +596,10 @@ footer{
     }
 
     .srcitem{
-        height:85px;
+        height:80px;
         width:95px;
         object-fit:fill;
-        margin:0;
+        margin:0px;
         border-radius:5px;
         border:2px solid darkolivegreen;
         box-shadow:inset -2px 6px 10px rgba(113, 194, 137, 0.637), 2px -6px 10px rgba(37, 48, 39, 0.541);
