@@ -262,8 +262,11 @@ nav > ul {
     justify-content:center;;
     padding:30px;
     margin-right:10px;
-    font-size:0.9em;
-    
+    font-size:1.1em;
+}
+
+#abouttext > p {
+    font-size:1em;
 }
 
 #About{
