@@ -486,8 +486,8 @@ footer{
     border-radius:185px;
     border:2px solid rgb(255, 255, 255);
     background: linear-gradient(145deg, #ffffff, #d6d6d6);
-    box-shadow: 10px 10px 10px #c3dbcbb4, 
-            -10px -10px 10px #f1f0f0;
+    box-shadow: 5px 5px 10px #d5d6d5b4, 
+            -5px -5px 10px #f1f0f0;
     }   
 
     #new{
